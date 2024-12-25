@@ -65,7 +65,7 @@ const Portfolio = () => {
   useEffect(() => {
     const fetchWeather = async () => {
       try {
-        const API_KEY = "0b318caaa050a3f5ea8177df3c5baa25";
+        const API_KEY = process.env.REACT_APP_API_KEY;
         const response = await axios.get(
           `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
         );

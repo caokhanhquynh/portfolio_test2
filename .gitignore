@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables file
+.env
+
+# Node modules directory
+node_modules/
+
+# log files
+*.log
+
+# Operating system specific files
+.DS_Store
