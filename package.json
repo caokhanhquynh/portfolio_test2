@@ -2,7 +2,7 @@
   "name": "web-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/caokhanhquynh/portfolio_test2",
+  "homepage": "https://caokhanhquynh.github.io/portfolio_test2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
